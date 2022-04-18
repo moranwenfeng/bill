@@ -1,0 +1,9 @@
+server:
+    port: 8080
+    servlet:
+        context-path: /user
+
+user:
+    nickName: 李四
+    age: 18
+    info: 我今年${user.age}岁。
